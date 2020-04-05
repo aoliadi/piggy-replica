@@ -1,0 +1,127 @@
+/***********************************/
+@import url(http://allfont.net//allfont.css?fonts=karla);
+
+ * {
+        padding:0;
+        margin:0;
+    }
+    
+    html {
+        box-sizing: border-box;
+        background-color:#add8e6;
+    }
+
+h2 {
+    color:#083e9e;
+    padding-bottom:5px;
+    }
+
+    #overall-container {
+        max-width:500px;
+        padding:10px;
+        margin:10px auto;
+    }
+
+ #container {
+     text-align: left;
+       max-width:350px;
+      background-color:#fff;
+        padding:50px;
+        margin:50px auto 0;
+        outline:none;
+    }
+
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], select {
+        padding:15px;
+        width:320px;
+        margin-top:10px;
+        background-color:#d7dee5;
+        border-radius:5px;
+        outline:none;
+        font-size:16px;
+        font-family:"Segoe UI", sans-serif;
+        color:#1a202c;
+        border:none;
+    }
+    
+     input[type="submit"] {
+        padding:20px;
+        width:100%;
+        outline:0;
+        font-size:16px;
+        border:none;
+        background-color:rgb(8, 62, 158);
+        color:white;
+    }
+    
+    input[type="submit"]:hover {
+             background-color:darkblue;
+    }
+
+select {
+    width:350px;
+}
+ 
+/*font stylings begin*/
+
+p.input {
+        font-family:"Segoe UI", sans-serif;
+    font-size:16px;
+            }
+
+ p.top {
+        font-family:u8, sans-serif;
+        font-size:12px;
+    }
+
+p#cont-top {
+          font-family:"Karla", arial;
+    font-size:12px;
+}
+
+h2 {
+    font-family:"U8", sans-serif;
+    }
+
+    /*font stylings end*/
+
+
+    div#logo {
+        max-width:350px;
+        padding:0;
+        margin:0 auto;
+        position:relative;
+    }
+    
+    img     {
+        position:relative;
+        left:25%;
+            margin:0;
+            padding:0;
+            }
+
+#container, input[type="submit"] {
+                border-radius:12px 12px 12px 0;
+    }
+    
+   .top {
+       font-size:12px;
+        margin-top:3.5em;
+    }
+         
+    select:focus {
+        background-color:#fff;
+    }
+    
+    #centralize {
+        text-align: center;
+        color:#fff;
+    }
+    
+    h2, #cont-top {
+        text-align:center;
+    }
+
+a {
+        text-decoration: none;
+    }
